@@ -71,7 +71,7 @@
       <div class="post-wrapper">
 
         {% if is_tag %}
-        <h4 class="tag-header">Showing all Sailors from: {{ tag }}:</h4>
+        <h4 class="tag-header">Showing all Sailors from {{ tag }}:</h4>
         {% endif %}
 
         {% for post in posts %}
@@ -98,11 +98,11 @@
 
           {% if post.type == 'link' %}
           <div class="post-details">
-            <h2><a href="{{ post.url }}" target="_blank">{{ post.title|truncate(40, False, '...') }}</a></h2>
+            <h2><a href="{{ post.url }}" target="_blank">{{ post.title }}</a></h2>
           </div>
           {% else %}
           <div class="post-details">
-            <h2><a href="{{ post.permalink }}">{{ post.title|truncate(40, False, '...') }}</a></h2>
+            <h2><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
           </div>
           {% endif %}
 
