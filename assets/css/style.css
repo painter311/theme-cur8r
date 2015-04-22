@@ -329,8 +329,7 @@ div.post-wrapper {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 115px 35px 35px 35px;
-  position: fixed;
-  right: 0;
+  float: right;
 }
 div.post-wrapper:after {
   visibility: hidden;
