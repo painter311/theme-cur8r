@@ -228,7 +228,7 @@ div.mobile-nav ul li a.mobile-social-link:hover {
 div.right {
   position: fixed;
   top: 0;
-  right: 0;
+  left: 0;
   width: 20%;
   height: 100%;
   background-color: #f4f3e9;
