@@ -354,16 +354,17 @@ div.post-wrapper div.post-fragment {
   box-sizing: border-box;
   padding: 10px;
   float: left;
-  height: 280px;
+  height: 380px;
   overflow: hidden;
   margin-right: 3%;
   margin-bottom: 3%;
+  box-shadow: 1px 1px 5px lightgray;
 }
 div.post-wrapper div.post-fragment div.post-image {
   padding: 0;
   margin: 0 0 10px 0;
   overflow: hidden;
-  height: 150px;
+  height: 250px;
 }
 div.post-wrapper div.post-fragment div.post-image img {
   width: 100%;
@@ -654,7 +655,7 @@ div.pagination {
   box-sizing: border-box;
   display: block;
   clear: both;
-  background-color: #f4f3e9;
+  background-color: white;
   padding: 30px 35px 30px 35px;
 }
 div.pagination a {
