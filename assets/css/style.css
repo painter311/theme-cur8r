@@ -87,6 +87,7 @@ div.wrapper {
   display: block;
   margin: 0 auto;
   width: 100%;
+  background-color: white;
 }
 span.typcn {
   position: relative;
@@ -115,7 +116,7 @@ div.header h1.logo a {
   color: #464748;
 }
 div.header h1.logo a:hover {
-  color: #003368;
+  color: #44a084;
 }
 div.header ul.nav {
   float: left;
@@ -227,7 +228,7 @@ div.mobile-nav ul li a.mobile-social-link:hover {
 div.right {
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   width: 20%;
   height: 100%;
   background-color: #f4f3e9;
@@ -328,6 +329,8 @@ div.post-wrapper {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 115px 35px 35px 35px;
+  position: fixed;
+  right: 0;
 }
 div.post-wrapper:after {
   visibility: hidden;
@@ -351,17 +354,16 @@ div.post-wrapper div.post-fragment {
   box-sizing: border-box;
   padding: 10px;
   float: left;
-  height: 380px;
+  height: 280px;
   overflow: hidden;
   margin-right: 3%;
   margin-bottom: 3%;
-  box-shadow: 1px 1px 5px lightgray;
 }
 div.post-wrapper div.post-fragment div.post-image {
   padding: 0;
   margin: 0 0 10px 0;
   overflow: hidden;
-  height: 250px;
+  height: 150px;
 }
 div.post-wrapper div.post-fragment div.post-image img {
   width: 100%;
@@ -654,8 +656,6 @@ div.pagination {
   clear: both;
   background-color: #f4f3e9;
   padding: 30px 35px 30px 35px;
-  position: fixed;
-  right: 0;
 }
 div.pagination a {
   color: #464748;
