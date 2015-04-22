@@ -275,6 +275,7 @@ div.right ul.right-links li a:hover {
 ul.tags {
   display: block;
   padding: 0;
+  text-transform: capitalize;
 }
 ul.tags li {
   padding: 0 5px 0 0;
@@ -378,7 +379,7 @@ div.post-wrapper div.post-fragment div.post-details p {
 }
 div.post-wrapper div.post-fragment div.post-details h2 {
   font-size: font-size: .9rem;
-  line-height: 1.75rem;
+  line-height: 1.2rem;
   padding: 0;
   margin: 0;
   font-weight: 700;
