@@ -22,7 +22,7 @@ body {
   font-family: 'Lato', helvetica, sans-serif;
   height: 100%;
   width: 100%;
-  background-color: #e7e2d0;
+  background-color: white;
   font-size: 100%;
   /* 16px */
   line-height: 1.5;
@@ -231,7 +231,7 @@ div.right {
   left: 0;
   width: 20%;
   height: 100%;
-  background-color: #f4f3e9;
+  background-color: white;
   -ms-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
